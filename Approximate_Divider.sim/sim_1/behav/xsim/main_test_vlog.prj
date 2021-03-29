@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Approximate_Divider.srcs/sources_1/new/main.v" \
+"C:/Users/Home/Downloads/p_encode_16to4.v" \
+"C:/Users/Home/Downloads/p_encode_4.v" \
+"../../../../Approximate_Divider.srcs/sim_1/new/main_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
